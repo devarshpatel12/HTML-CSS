@@ -1,0 +1,31 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+function checkPositiveNegative(num1, num2) {
+
+if ((num1 >= 0 && num2 < 0) || (num1 < 0 && num2 >= 0)) {
+return true; // One number is positive and the other is
+}
+else
+{
+return false; // Both numbers have the same sign or both are
+} }
+let firstNumber = prompt("Enter no. 1 : ");
+
+let secondNumber = prompt("Enter no. 2 : "); 
+checkPositiveNegative(firstNumber, secondNumber);
+
+if (checkPositiveNegative(firstNumber, secondNumber)) {
+alert("One number is positive and the other is negative"); }
+else
+{
+alert("Both numbers have the same sign or both are zero");
+}
+    </script>
+</body>
+</html>
